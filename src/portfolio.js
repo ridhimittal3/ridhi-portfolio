@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Ridhi Mittal',
-  role: 'Chronic Napper',
+  role: '',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "I'm currently on exchange at University College London, and will be finishing up my BSc in Neuroscience and Computer Science in May 2024. I'm also working part-time as a software developer, and research decision-making models.",
   resume: '',
   social: {
     linkedin: 'https://linkedin.com/in/ridhimittal',
@@ -21,46 +21,38 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Software Developer Intern',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'I engineered a patient peer support app within the current AngularJS framework of the Opal patient portal.',
+    stack: ['AngularJS', 'Django', 'SQL'],
+    livePreview: 'https://opalmedapps.com/',
   },
   {
-    name: 'Project 2',
+    name: 'Machine Learning Lab Fellow',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Designed and implemented a ML prototype for a virtual meeting tool that detects audio-based interruptions for the AI4Good Lab.',
+    stack: ['TensorFlow', 'AWS', 'sci-kit learn', 'pandas'],
+    sourceCode: 'https://github.com/AI4GoodProject/speechRecForMeeting',
+    livePreview: 'https://www.canva.com/design/DAFD_hi3t0Q/raxVAqYuJYYD3ZWIafcBbQ/edit?utm_content=DAFD_hi3t0Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
   },
   {
-    name: 'Project 3',
+    name: 'Research Assistant at LNSC',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Implemented the Sample-based Expected Utility model to  assess model performance and implications for decision processes.',
+    stack: ['MATLAB', 'pandas', 'Matplotlib', 'seaborn'],
+    sourceCode: 'https://github.com/ridhimittal3/NSCI410ResearchProject',
+    livePreview: 'https://drive.google.com/file/d/1s_mVFsm4BzKWpWKTOgJqRp0cfW4eJgje/view?usp=sharing',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'health technologies',
+  'neurotech startups',
+  'becoming a chess master',
+  'napping',
+  'designing cool logos',
 ]
 
 const contact = {
@@ -68,4 +60,4 @@ const contact = {
   email: 'mittalridhi3@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact } 

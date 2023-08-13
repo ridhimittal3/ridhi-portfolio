@@ -9,22 +9,22 @@ const About = () => {
 
   return (
     <div className="about__text">
-      <div className="about image">
+      <div className="about__image">
         <img src={profilePhoto} alt="Ridhi's profile"
           style={{
-            width: 300,
-            height: 300,
-            borderRadius: 300 / 2
+            width: 350,
+            height: 350,
+            borderRadius: 350 / 2
           }}/>
       </div>
-
+      
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}!</span>
+          Hi, I&apos;m <span className='about__name'>{name}!</span>
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && <h2 className='about__role'>{role}.</h2>}
       <p className='about__desc' >{description && description}</p>
 
       <div className='about__contact center'>
@@ -35,7 +35,7 @@ const About = () => {
               <a
                 href={social.github}
                 aria-label='github'
-                className='link link--icon'
+                className='link link--icon' 
               >
                 <GitHubIcon />
               </a>

@@ -7,9 +7,9 @@
   color: var(--clr-primary);
 }
 
-.about__role {
-  margin-top: 1.2em;
-}
+/* .about__role {
+  margin-top: 0.5em;
+} */
 
 .about__desc {
   font-size: 1rem;
@@ -18,6 +18,13 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0.5rem !important;
+}
+
+.about__contact .MuiSvgIcon-root{
+  font-size: 3rem !important;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .about__desc,
@@ -29,7 +36,9 @@
 }
 
 .about .link--icon {
-  margin-right: 0.8em;
+  margin-right: 20em;
+  gap: 20px;
+  transform: scale(1.8);
 }
 
 .about .btn--outline {
@@ -56,7 +65,7 @@
   text-align: center; 
 }
 
-/* .about__image {
-  text-align: right;
-  flex: 1;
-} */
+.about__image {
+  margin-top: 1em;
+  margin-bottom: 1em;  
+}
