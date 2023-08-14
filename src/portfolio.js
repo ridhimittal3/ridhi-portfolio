@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: '',
+  homepage: 'http://localhost:3000/ridhi-portfolio',
   title: 'RM.',
 }
 
@@ -15,6 +15,7 @@ const about = {
     linkedin: 'https://linkedin.com/in/ridhimittal',
     github: 'https://github.com/ridhimittal3',
   },
+  email: 'mittalridhi3@gmail.com',
 }
 
 const projects = [
@@ -57,7 +58,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'mittalridhi3@gmail.com',
+  email: '',
 }
 
 export { header, about, projects, skills, contact } 

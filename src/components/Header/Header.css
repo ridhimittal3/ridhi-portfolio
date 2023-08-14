@@ -4,6 +4,7 @@
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
+  color: var(--clr-primary) !important;
 }
 
 @media (max-width: 600px) {

@@ -21,6 +21,10 @@
   margin-top: 0.5rem !important;
 }
 
+.email__link{
+  margin-top: 1rem !important;
+}
+
 .about__contact .MuiSvgIcon-root{
   font-size: 3rem !important;
   margin-left: 0.5rem;

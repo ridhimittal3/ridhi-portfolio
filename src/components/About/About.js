@@ -5,7 +5,7 @@ import profilePhoto from '../../Headshot_Ridhi.JPG'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume, social, email } = about
 
   return (
     <div className="about__text">
@@ -26,6 +26,13 @@ const About = () => {
 
       {role && <h2 className='about__role'>{role}.</h2>}
       <p className='about__desc' >{description && description}</p>
+
+      {email && (
+        <p className='about__desc email__link'>
+          Feel free to contact me at <a href={`mailto:${email}`} className='link'>{email}.</a>
+        </p>
+          // <p href={`mailto:${email}`} className='link'>Feel free to email me.</p>
+      )}
 
       <div className='about__contact center'>
 
