@@ -22,7 +22,7 @@ const Navbar = () => {
         {projects.length ? (
           <li className='nav__list-item'>
             <a
-              href='#projects'
+              href='#experience'
               onClick={toggleNavList}
               className='link link--nav'
             >
@@ -34,7 +34,7 @@ const Navbar = () => {
         {skills.length ? (
           <li className='nav__list-item'>
             <a
-              href='#skills'
+              href='#interests'
               onClick={toggleNavList}
               className='link link--nav'
             >

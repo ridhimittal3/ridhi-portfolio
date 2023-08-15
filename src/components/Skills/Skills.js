@@ -6,7 +6,7 @@ const Skills = () => {
   if (!skills.length) return null
 
   return (
-    <section className='section skills' id='skills'>
+    <section className='section skills' id='interests'>
       <h2 className='section__title'>Interests</h2>
       <ul className='skills__list'>
         {skills.map((skill) => (
