@@ -9,13 +9,9 @@ const Header = () => {
   return (
     <header className='header center'>
       <h3>
-        {homepage ? (
           <a href={homepage} className='link'>
-            <Icon width="2.5rem" height="2.5rem" fill="blue" />
+            <Icon width="3rem" height="3rem" />
           </a>
-        ) : (
-          <Icon width="2.5rem" height="2.5rem" fill="blue" />
-        )}
       </h3>
       <Navbar />
     </header>

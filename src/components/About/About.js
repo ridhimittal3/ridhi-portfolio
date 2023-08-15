@@ -29,7 +29,7 @@ const About = () => {
 
       {email && (
         <p className='about__desc email__link'>
-          Feel free to contact me at <a href={`mailto:${email}`} className='link'>{email}.</a>
+          Feel free to contact me at <a href={`mailto:${email}`} className='link'>{email}</a>.
         </p>
           // <p href={`mailto:${email}`} className='link'>Feel free to email me.</p>
       )}
